@@ -132,7 +132,7 @@ public class AImageView: UIView {
     }
 }
 
-public class AImage {
+public class AImage: NSObject {
     
     fileprivate let imageSource: CGImageSource
     fileprivate var framePerSecond:Int
