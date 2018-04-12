@@ -1,12 +1,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AImage'
-  s.version          =  '2.0.1'
+  s.version          =  '2.0.2'
   s.summary          = 'A animated GIF engine for iOS in Swift'
   s.homepage         = 'https://github.com/wangjwchn/AImage'
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Jiawei Wang" => "wangjwchn@yahoo.com" }
-  s.source           = { :git => "https://github.com/creativehothouse/AImage.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/creativehothouse/AImage.git", :branch => "master" }
   s.platform     = :ios, '8.0'
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
