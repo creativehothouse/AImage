@@ -196,7 +196,7 @@ public class AImage: NSObject {
             if (delayObject.floatValue == 0.0){
                 delayObject = unsafeBitCast(CFDictionaryGetValue($0, Unmanaged.passUnretained(kCGImagePropertyGIFDelayTime).toOpaque()), to: AnyObject.self)
             }
-            guard let number = delayObject as? NSNumber else { return 0 }
+            guard let number = delayObject as? NSNumber else { return 0.1 }
             return number.floatValue
         }
         return frameDelays
