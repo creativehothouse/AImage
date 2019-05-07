@@ -53,7 +53,7 @@ public class AImageView: UIView {
         } else {
             timer?.frameInterval = self.aImage!.framePerSecond
         }
-        timer?.add(to: RunLoop.main, forMode: .commonModes)
+        timer?.add(to: RunLoop.main, forMode: RunLoop.Mode.common)
     }
     
     deinit {

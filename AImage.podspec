@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AImage'
-  s.version          =  '2.0.2'
+  s.version          =  '2.0.3'
   s.summary          = 'A animated GIF engine for iOS in Swift'
   s.homepage         = 'https://github.com/wangjwchn/AImage'
   s.license          = { :type => "MIT", :file => "LICENSE" }
@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
   s.source_files = 'AImage/*.{swift}'
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 end
